@@ -15,6 +15,7 @@
 		A4C5B057205F4EE900019813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C5B056205F4EE900019813 /* main.m */; };
 		A4C5B061205F4EE900019813 /* CJKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C5B060205F4EE900019813 /* CJKeyBoardTests.m */; };
 		A4C5B06C205F4EE900019813 /* CJKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C5B06B205F4EE900019813 /* CJKeyBoardUITests.m */; };
+		A4C5B07B205F4F7300019813 /* CJKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C5B07A205F4F7300019813 /* CJKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A4C5B067205F4EE900019813 /* CJKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C5B06B205F4EE900019813 /* CJKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJKeyBoardUITests.m; sourceTree = "<group>"; };
 		A4C5B06D205F4EEA00019813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C5B079205F4F7300019813 /* CJKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJKeyboard.h; sourceTree = "<group>"; };
+		A4C5B07A205F4F7300019813 /* CJKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJKeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A4C5B048205F4EE900019813 /* AppDelegate.m */,
 				A4C5B04A205F4EE900019813 /* ViewController.h */,
 				A4C5B04B205F4EE900019813 /* ViewController.m */,
+				A4C5B079205F4F7300019813 /* CJKeyboard.h */,
+				A4C5B07A205F4F7300019813 /* CJKeyboard.m */,
 				A4C5B04D205F4EE900019813 /* Main.storyboard */,
 				A4C5B050205F4EE900019813 /* Assets.xcassets */,
 				A4C5B052205F4EE900019813 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C5B04C205F4EE900019813 /* ViewController.m in Sources */,
+				A4C5B07B205F4F7300019813 /* CJKeyboard.m in Sources */,
 				A4C5B057205F4EE900019813 /* main.m in Sources */,
 				A4C5B049205F4EE900019813 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = CJKeyBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.CJKeyBoard;
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QHQ4M8Q3;
 				INFOPLIST_FILE = CJKeyBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caoji.CJKeyBoard;

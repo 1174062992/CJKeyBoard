@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CJKeyboard.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CJKeyboard *keyboard = [[CJKeyboard alloc]initWithFrame:CGRectMake(0, 0, 375, 240)];
+    UITextField *textField = [[UITextField alloc]initWithFrame:CGRectMake(30, 180, self.view.frame.size.width-60, 45)];
+    textField.backgroundColor =[UIColor lightGrayColor];
+    textField.placeholder = @"请输入xxxxx";
+    textField.inputView = keyboard;
+    [self.view addSubview:textField];
 }
 
 
