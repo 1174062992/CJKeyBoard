@@ -242,7 +242,7 @@ static __weak id currentFirstResponder;
     
     for (int i = 0; i < array.count; i ++) {
         ZZZKeyboardButton *button = [ZZZKeyboardButton buttonWithType:UIButtonTypeCustom];
-        button.frame = CGRectMake(i * width, (self.frame.size.height - height), width, height);
+        button.frame = CGRectMake(i * width, HEIGHT, width, height);
         [button setTitle:array[i] forState:UIControlStateNormal];
         button.titleLabel.font = [UIFont systemFontOfSize:18 weight:UIFontWeightRegular];
         
